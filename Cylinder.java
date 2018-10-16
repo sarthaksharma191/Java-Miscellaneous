@@ -5,7 +5,7 @@ class domestic{
 		cost=num*800;
 	}
 	void display(){
-		System.out.println("Cost of Domestic is "+cost);
+		System.out.println("Cost of Domestic Cylinder is "+cost);
 	}
 }
 class commercial{
@@ -14,7 +14,7 @@ class commercial{
 		cost=num*2000;
 	}
 	void display(){
-		System.out.println("Cost of Commercial is "+cost);
+		System.out.println("Cost of Commercial Cylinder is "+cost);
 	}
 }
 
@@ -29,5 +29,6 @@ class Cylinder{
 		num=sc.nextInt();
 		c.setDetail(num);		
 		c.display();
+		System.out.println("Program ending.../");
 	}
 }
