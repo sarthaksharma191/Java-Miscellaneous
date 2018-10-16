@@ -5,15 +5,15 @@ class BubbSort{
 	{
 		Scanner sc=new Scanner(System.in);
 		int arr[]=new int[5];
-		int i,max,temp=0,j;
+		int i,maximum,temp=0,j;
 		System.out.println("Enter Limit");
 		max=sc.nextInt();
 		System.out.println("Enter marks");
-		for (i=0;i<max;i++)
+		for (i=0;i<maximum;i++)
 		{
 			arr[i]=sc.nextInt();
 		}
-		for (i=0;i<max;i++)
+		for (i=0;i<maximum;i++)
 		{
 			for (j=0;j<i;j++)
 			{
@@ -23,9 +23,10 @@ class BubbSort{
 			}
 		}
 		System.out.println("Array");
-		for (i=0;i<max;i++)
+		for (i=0;i<maximum;i++)
 		{
 			System.out.println(arr[i]);
 		}
+		System.out.println("The out is now sorted and can be viewed");
 	}
 }
