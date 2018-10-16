@@ -1,14 +1,14 @@
 import java.util.*;
 
-class BubbSort{
+class BbbleSort{
 	public static void main(String arg[])
 	{
 		Scanner sc=new Scanner(System.in);
 		int arr[]=new int[5];
 		int i,maximum,temp=0,j;
-		System.out.println("Enter Limit");
+		System.out.println("Limit");
 		max=sc.nextInt();
-		System.out.println("Enter marks");
+		System.out.println("Marks");
 		for (i=0;i<maximum;i++)
 		{
 			arr[i]=sc.nextInt();
@@ -27,6 +27,6 @@ class BubbSort{
 		{
 			System.out.println(arr[i]);
 		}
-		System.out.println("The out is now sorted and can be viewed");
+		System.out.println("Sorted");
 	}
 }
