@@ -12,5 +12,6 @@ class Area{
 		int a=12,l=5,b=9;
 		Area sq=new Area(a);
 		Area rect=new Area(l,b);
+		Area sq=new Area(b);
 	}
 }
